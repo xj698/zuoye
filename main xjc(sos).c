@@ -95,9 +95,9 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	      HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);      //准备开始，减少开始先亮一下的干扰
-	  	  HAL_Delay(2000);
-	      HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);       
+	      HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);  //准备开始，减少开始先亮一下的干扰
+	 	  HAL_Delay(2000);
+	      HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
 	  	  HAL_Delay(1000);
 	  	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
 	  	  HAL_Delay(200);
@@ -143,7 +143,7 @@ int main(void)
 	  	  HAL_Delay(200);
 	  	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
 	  	  HAL_Delay(100);
-	  	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);      
+	  	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
 	  	  HAL_Delay(200);
 
     /* USER CODE BEGIN 3 */
